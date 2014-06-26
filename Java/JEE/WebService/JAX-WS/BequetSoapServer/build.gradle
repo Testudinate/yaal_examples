@@ -1,2 +1,8 @@
 apply plugin: 'war'
 sourceSets.main.java.srcDir 'src'
+dependencies {
+    compile fileTree('lib'), 'javax.servlet:servlet-api:2.5'
+}
+repositories {
+    mavenCentral()
+}

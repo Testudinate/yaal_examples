@@ -1,4 +1,4 @@
-package com.lesavon;
+package com.lesavon.service;
 
 /**
  * Заказ.
